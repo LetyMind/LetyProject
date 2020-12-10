@@ -1,0 +1,110 @@
+$gray: #F7F6F6;
+$blue: #1065E4;
+$black: #23273A;
+$soft-white: #FBFBFB;
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.hh-100
+{
+    height: 100vh;
+  //  background-image: linear-gradient(90deg, $blue 60%, #ffffff 50.1%);
+}
+
+
+
+ .bg-blue
+ {
+     background-color: $blue;
+ }
+
+
+.w-80
+{
+    width: 80%;
+}
+
+
+.fw-700
+{
+    font-weight: 700; 
+}
+
+
+@media screen and (min-width:992px)
+{
+    .main-title
+    {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+
+    .fs-20
+    {
+        font-size: 20px;
+    }
+
+    .r-image
+    {
+        height: 35px;
+    }
+
+
+    .r-hw
+    {
+        height: 130px;
+        width: 130px;
+    }
+
+
+}
+
+
+
+.bg-gray-l
+{
+    background-color: $gray;
+}
+
+
+
+
+.c-black
+{
+    color: $black;
+}
+
+
+.bg-soft
+{
+    background-color: $soft-white;
+}
+
+
+.iconos
+{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.hola
+{
+    background-color: red;
+}
+
+
+.sticky
+{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
