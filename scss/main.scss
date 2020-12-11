@@ -1,5 +1,5 @@
 $gray: #F7F6F6;
-$blue: #1065E4;
+$blue: #4134FF;
 $black: #23273A;
 $soft-white: #FBFBFB;
 
@@ -11,10 +11,16 @@ html {
 
 
 
+.bg-main
+{
+    background-image: linear-gradient(90deg, #4134FF 0%, #1B8BFF 100%);
+}
+
+
 
  .bg-blue
  {
-     background-color: $blue;
+     background: $blue;
  }
 
 
@@ -37,7 +43,7 @@ html {
 {
     .main-title
     {
-        font-size: 3.5rem;
+        font-size: 3.9rem;
         line-height: 1;
     }
 
@@ -82,7 +88,7 @@ html {
 
      .main-title
     {
-        font-size: 4.6rem;
+        font-size: 5rem;
         line-height: 1;
     }
 
@@ -96,9 +102,19 @@ html {
 
 
 
+@media screen and (min-width:768px)
+{
+    
+    .iconos
+    {
+        height: 25px;
+        width: 25px;
+    }
+
+}
 
 
-@media screen and (max-width:768px)
+@media screen and (max-width:767px)
 {
     .pt-6
     {
@@ -108,6 +124,11 @@ html {
     .r-image
     {
         height: 45px;
+    }
+
+    .iconos
+    {
+        width: 7.8vw;
     }
 
 }
@@ -134,12 +155,6 @@ html {
     background-color: $soft-white;
 }
 
-
-.iconos
-{
-    height: 25px;
-    width: 25px;
-}
 
 
 
@@ -202,3 +217,27 @@ html {
         background-color: $blue;
     }
 }
+
+
+
+.down
+{
+    animation: efecto 1.2s ease-in-out infinite alternate;
+}
+
+
+@keyframes efecto 
+{
+    from 
+    {
+        transform: translateY(0);
+    }
+
+    to
+    {
+        transform: translateY(19px);
+    }
+}
+
+
+
