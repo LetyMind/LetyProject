@@ -1,12 +1,31 @@
 $gray: #F7F6F6;
-$blue: #4134FF;
+$blue: #1065E4;
 $black: #23273A;
 $soft-white: #FBFBFB;
-
+$button: #22c6db;
 
 
 html {
   scroll-behavior: smooth;
+}
+
+
+.btn-color
+{
+    background-color: $button;
+}
+
+
+
+.fs-22
+{
+    font-size: 22px;
+}
+
+
+.h-45
+{
+    height: 45px;
 }
 
 
@@ -110,7 +129,6 @@ html {
         height: 25px;
         width: 25px;
     }
-
 }
 
 
@@ -118,7 +136,7 @@ html {
 {
     .pt-6
     {
-          padding-top: 9rem;
+          padding-top: 5rem;
     }
 
     .r-image
@@ -129,6 +147,16 @@ html {
     .iconos
     {
         width: 7.8vw;
+    }
+
+    .r-hw
+    { 
+        width: 100%;
+    }
+
+    .fs-5
+    {
+        font-size: 4vw;
     }
 
 }
@@ -241,3 +269,17 @@ html {
 
 
 
+.altura-100
+{
+    height: 100vh;
+    z-index: 999;
+    width: 100%;
+    background-color: $soft-white;
+    position: fixed;
+}
+
+
+.fs-24
+{
+    font-size: 35px;
+}
