@@ -12,7 +12,7 @@ html {
 
 .btn-color
 {
-    background-color: $button;
+    background-color: $soft-white;
 }
 
 
@@ -87,7 +87,7 @@ html {
     
     .w-16
     {
-        width: 16%;
+        width: 14%;
     }
 
 
@@ -107,14 +107,25 @@ html {
 
      .main-title
     {
-        font-size: 5rem;
+        font-size: 5.4rem;
         line-height: 1;
     }
 
 
     .fs-20
     {
-        font-size: 24px;
+        font-size: 25px;
+    }
+
+    
+    .r-image
+    {
+        height: 45px;
+    }
+    
+    .fs-2-3
+    {
+        font-size: 2.3rem;
     }
 
 }
@@ -129,6 +140,12 @@ html {
         height: 25px;
         width: 25px;
     }
+
+  .text-r-black
+    {
+        color: $black;
+    }
+
 }
 
 
@@ -146,7 +163,7 @@ html {
 
     .iconos
     {
-        width: 7.8vw;
+        width: 7vw;
     }
 
     .r-hw
@@ -159,6 +176,29 @@ html {
         font-size: 4vw;
     }
 
+
+    .fs-13
+    {
+        font-size: 3vw;
+    }
+
+    
+    .text-r-black
+    {
+        color: $soft-white;
+    }
+
+
+    .fs-1-2
+    {
+        font-size: 1.02rem;
+    }
+
+    .fs-1-85
+    {
+        font-size: 1.85rem;
+    }
+
 }
 
 
@@ -168,6 +208,7 @@ html {
 {
     background-color: $gray;
 }
+
 
 
 
