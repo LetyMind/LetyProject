@@ -1,5 +1,7 @@
 const header = document.getElementById("header"),
-    abrirModal = document.getElementById("abrirModal")
+    abrirModal = document.getElementById("abrirModal"),
+    barra = document.getElementById("barra"),
+    magia = document.getElementById("magia")
 
 let windows = window.innerWidth 
 
@@ -13,6 +15,8 @@ window.addEventListener("scroll", (e)=>
             header.querySelector("h4").classList.add("text-white")
             header.classList.add("opacityON")
             header.classList.remove("opacityOFF")
+            barra.classList.replace("my-4","my-3")
+            magia.classList.remove("rectangulo")
         }
         else 
         {
@@ -20,6 +24,8 @@ window.addEventListener("scroll", (e)=>
             header.querySelector("h4").classList.remove("text-white")
             header.classList.add("opacityOFF")
             header.classList.remove("opacityON")
+            barra.classList.replace("my-3", "my-4")
+            magia.classList.add("rectangulo")
         }
      
 })

@@ -149,8 +149,36 @@ html {
 }
 
 
+
+@media screen and (max-width:991px)
+{
+    .dd-none
+    {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width:767px)
 {
+
+    .rectangulo
+    {
+        border: 2px solid $soft-white;
+        padding: 4px 10px;
+    }
+
+    .btn-20px
+    {
+        font-size: 20px;
+    }
+    
+    .px-6
+    {
+        padding: 0 3.5rem;
+    }
+    
     .pt-6
     {
           padding-top: 5rem;
@@ -322,5 +350,5 @@ html {
 
 .fs-24
 {
-    font-size: 35px;
+    font-size: 25px;
 }
