@@ -58,11 +58,11 @@ html {
 
 
 
-@media screen and (min-width:992px)
+@media screen and (min-width:992px)  
 {
     .main-title
     {
-        font-size: 3.9rem;
+        font-size: 3.75rem;
         line-height: 1;
     }
 
@@ -102,16 +102,12 @@ html {
 }
 
 
+
+
+
 @media screen and (min-width:1200px)
 {
-
-     .main-title
-    {
-        font-size: 5.4rem;
-        line-height: 1;
-    }
-
-
+   
     .fs-20
     {
         font-size: 25px;
@@ -128,8 +124,25 @@ html {
         font-size: 2.3rem;
     }
 
+     .main-title
+    {
+        font-size: 5rem;
+        line-height: 1;
+    }
+
+
 }
 
+
+@media screen and (min-width:1600px)
+{
+      .main-title
+    {
+        font-size: 5.4rem;
+        line-height: 1;
+    }
+
+}
 
 
 @media screen and (min-width:768px)
